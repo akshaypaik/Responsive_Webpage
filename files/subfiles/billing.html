@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Responsive WebPage</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        h3
+        {
+            font-family: sans-serif;
+            text-align: center;
+            color: white;
+        }
+        body
+        {
+            background-image: url(billingback.jpg);
+        }
+    </style>
+    <body>
+        <h3>Please enter Billing details</h3>
+        <div class="container">
+<div class="form-control">
+    <form class="form-horizontal" action="thankyou.html">
+        <fieldset>
+            <legend>Basic Info:</legend>
+            Name:
+            <input type="text" class="form-control" name="name" placeholder="enter your name" required></input>
+            
+            Age:
+            <input type="number" class="form-control" name="age" placeholder="age" required> </input>
+          
+            Date of Birth:
+            <input type="date"  class="form-control" name="dob" placeholder="Date of Birth" required> </input>
+           
+            Address:
+            <input type="textarea" class="form-control" name="address" placeholder="address" required></input>
+            
+            <legend>Contact Details:</legend>
+            Email:
+            <input type="email" class="form-control" name="email" placeholder="Email" required></input>
+            
+            Mobile number:
+            <input type="tel" class="form-control" name="telephone" placeholder="Mobile number" pattern="[0-9]{10}" required></input>
+            <legend>Bike Info:</legend>
+            Model:
+            <select>
+                <option>Karizma R</option>
+                <option>200 ns</option>
+                <option>Fz-25</option>
+                <option>Duke 200</option>
+                <option>Classic 350</option>
+                <option>CBR 250</option>
+                <option>Gixxer</option>
+                <option>Apache 160</option>
+             </select>
+             <br/>
+             Engine Number:
+             <input type="text" name="engine" placeholder="Engine Number" class="form-control">
+             Registration Number:
+             <input type="text" name="reg" placeholder="Enter the Registration number of your bike Eg:KA176295" class="form-control" pattern="[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9]">
+             <br/>
+             <br/>
+             <input type="submit" name="submit" class="btn btn-success">
+            <input type="reset" name="reset" class="btn btn-danger">
+            </fieldset>
+    </form>
+</div>
+</div>
+    </body>
+</head>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Delivery</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  marquee
+  {
+  	color: grey;
+  	font-size: 120%;
+  }
+  .delivery_enquiry
+  {
+  	background-image: url("deliveryback2.jpg");
+  	margin-left: 190px;
+  	width: 400px;
+  	height: 300px;
+  }
+  input[type=text],input[type=tel],input[type=email]
+  {
+  	width: 200px;
+  	padding: 12px 12px;
+  	margin-top: 8px;
+  	height: 30px;
+  	margin-left: 100px;
+}
+ input[type=submit]
+ {
+ 	margin-left:165px;
+ }
+ p
+ {
+ 	font-size: 13px;
+ }
+ img
+ {
+ 	max-width: 100%;
+ 	max-height: 100%;
+ }
+  </style>
+ </head>
+ <body>
+ 	<marquee scrollamount="6" onmouseout=this.start() onmouseover=this.stop()>For expected delivery details please go to Bookings tab in Dashboard menu!!!</marquee>
+ 	<div class="delivery_enquiry">
+ 	<form>
+ 		<fieldset>
+ 			<legend style="text-align: center;">Delivery Enquiry</legend>
+ 			<span>Fill in your details we will contact you in next 6 hours.
+</span>
+<br/>
+<input type="text" name="name" placeholder="Your name" required/>
+<br/>
+<input type="tel" name="mobile" placeholder="Your contact number" pattern="[0-9]{10}" required/>
+<br/>
+<input type="text" name="model" placeholder="Model name" required>
+<br/>
+<input type="email" name="email" placeholder="Your email" required>
+<br/>
+<br/>
+<input type="submit" name="submit" value="Submit" class="btn btn-success">
+ 		</fieldset>
+ 	</form>
+ </div>
+ <div class="container">
+ 	<div class="row">
+ 		<section class="col-sm-4">
+ 			<img src="onetap.png">
+ 			<h3>One Tap Booking</h3>
+ 			<p>Fill customer Details and Book your ORDER in single CLICK!</p>
+ 			</section>
+ 			<section class="col-sm-4">
+ 				<img src="realtimetrack.png">
+ 				<h3>Real Time Tracking</h3>
+ 				<p>Know the rider location and order status in real time</p>
+ 			</section>
+ 			<section class="col-sm-4">
+ 				<img src="qualityassured.png">
+ 				<h3>Quality Assured</h3>
+ 				<p>A trained driver in professional uniform ensures on time delivery</p>
+ 			</section>
+ 		</div>
+ 	</div>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+ </body>
+ </html>

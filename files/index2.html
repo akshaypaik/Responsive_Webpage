@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Responsive WebPage</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    body
+    {
+      overflow: scroll;
+    }
+    	li
+    	{
+    		display: inline;
+    		padding-right: 15px;
+    		font-size: 18px;
+    		font-family: sans-serif;
+    	}
+    	li:first-child
+    	{
+    			margin-left:28%;
+    	}
+    	img
+    	{
+    		max-width: 100%;
+    		max-height: 100%;
+    		width: 400px;
+    		height: 250px;
+    		margin-left: 23%;
+    	}
+    	ul
+    	{
+    		padding-top: 15px;
+    	}
+    	a
+    	{
+    		color: white;
+    	}
+    	a:hover
+    	{
+    		text-decoration: none;
+    		color: white;
+    		pointer-events: none;
+
+    	}
+    	h3,p
+    	{
+    		font-family: sans-serif;
+    	}
+    </style>
+    <script>
+    	function relocate_model()
+    	{
+    		location.href="index2.html"
+    	}
+function relocate_price()
+{
+     location.href = "subfiles/price.html";
+} 
+</script>
+</head>
+<body>
+	<div class="container">
+  <ul class="nav nav-pills">
+    <li class="active">
+    	<input type="button" name="model" class="btn btn-info active" value="Models" onclick="relocate_model()">
+    </li>
+    <li>
+    	<input type="button" class="btn btn-info" name="price" value="Prices" onclick="relocate_price()">
+    </li>
+    <li>
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#karizma" style="text-align: center;">Bookings</button>
+<div class="modal" id="karizma" role="dialog">
+ <div class="modal-dialog" modal-lg> 
+ 	<div class="modal-content">
+ 		<div class="modal-header">
+             <div class="modal-title"><h3>Bookings</h3></div>
+ 		<button type="button" class="close" data-dismiss="modal" aria-label="close">
+ 			<span aria-hidden="true">&times;</span> 
+ 		</button>
+ 		</div>
+ 		<div class="modal-body">
+<marquee scrollamount="6" onmouseout=this.start() onmouseover=this.stop()>
+Currently bookings are available only at Bangalore area!
+</marquee>
+<table cellspacing="6px" cellpadding="6px">
+	<tr>
+		<th style="padding-right:135px">Models</th>
+		<th>Expected Delivery<br/>(in terms of days)</th>
+	</tr>
+	<tr>
+	<td>Karizma R</td>
+	<td>90</td>
+</tr>
+<tr>
+	<td>200 ns</td>
+	<td>21</td>
+</tr>
+<tr>
+	<td>Fz-25</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>Duke 200</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>Classic 350</td>
+	<td>40</td>
+</tr>
+<tr>
+	<td>CBR 250</td>
+	<td><i>waiting for relaunch</i></td>
+</tr>
+<tr>
+	<td>Gixxer</td>
+	<td><i>Immediate</i></td>
+</tr>
+<tr>
+	<td>Apache 160</td>
+	<td>7</td>
+</tr>
+</table>
+ 		</div>
+ 	<div class="modal-footer">
+ 		<button type="button" class="btn btn-danger" data-dismiss="modal">
+ 			Close
+ 		</button>
+ 	</div>
+ 	</div>
+ </div>
+</div>
+</li>
+  </ul>
+</div>
+<div class="container">
+	<div class="row" style="margin-top: 8px;">
+	<section class="col-md-12 col-md-offset-4 col-sm-12 col-lg-12 col-lg-offset-0">
+		<img src="img/karizma.jpg" class="icon" alt="icon">
+		<a href="http://www.heromotocorp.com/en-in/">
+		<h3>Karizma R</h3>
+	</a>
+		<p>Karizma has the tried and tested,but slightly detuned version of 223 cc SOHC air-cooled engine from the CRF230 series of enduro/MX/supermoto bikes that are sold in the USA and South American markets.It has a five-speed gearbox in place of the CRF's six-speed.The engine is an all-aluminium, undersquare engine.</p>
+	</section>
+	
+	<section class="col-md-12 col-md-offset-4 col-sm-12 col-lg-12">
+		<img src="img/200ns.jpg" class="icon" alt="icon">
+		<a href="https://www.bajajauto.com/">
+		<h3>200 ns</h3>
+	</a>
+		<p>The Bajaj Pulsar 200NS is a sports bike made by Bajaj Auto. The NS stands for Naked Sport. The Pulsar 200NS has a single-cylinder, four-stroke, triple spark-ignition and liquid-cooled engine. It uses a pressed steel perimeter frame and a box section swingarm, an underbelly exhaust, and rear nitrox-charged mono-shock suspension.</p>
+	</section>
+<section class="col-md-12 col-md-offset-4 col-sm-12 col-lg-12">
+		<img src="img/fz250.jpg" class="icon" alt="icon">
+		<a href="http://www.yamaha-motor-india.com/">
+		<h3>Fz-25</h3>
+	</a>
+		<p>The Yamaha FZ25, also called Yamaha Byson in Indonesia, is a standard motorcycle made by Yamaha since 2008. The FZ25 is modeled after the larger FZ1 with a scaled down engine capacity. The FZ16 is primarily sold in India, and other markets such as Indonesia, Colombia and Argentina.</p>
+	</section>
+<section class="col-md-12 col-md-offset-4 col-sm-12 col-lg-12">
+		<img src="img/duke200.jpg" class="icon" alt="icon">
+		<a href="http://www.ktm.com/in/">
+		<h3>Duke 200</h3>
+	</a>
+		<p>The KTM 200 Duke is a standard or naked motorcycle made by KTM and sold in most markets worldwide. It has a single-cylinder, four-stroke, spark-ignition liquid-cooled engine. It has six-speed gearbox with the gear ratios and a cable actuated multi-disc clutch. The bike has an underbelly exhaust and a three-chamber silencer positioned close to its centre of gravity.</p>
+	</section>
+	<div class="clearfix visible-md-block"></div>
+	<section class="col-md-12 col-md-offset-4 col-sm-12 col-lg-12">
+		<img src="img/classic350.jpg" class="icon" alt="icon">
+		<a href="https://royalenfield.com/">
+		<h3>Classic 350</h3>
+	</a>
+		<p>Royal Enfield Classic 350 and Classic 500 are 2 models of Royal Enfield motorcycles which have been in production since 2009.Both the Classic 350 and the Classic 500 feature the new unit construction engine in their 350cc and 500cc variants respectively. However the Classic 350 uses a carburettor for fuel delivery and the Classic 500 has EFI.</p>
+	</section>
+	<section class="col-md-12 col-md-offset-4 col-sm-12 col-lg-12">
+		<img src="img/cbr250.jpg" class="icon" alt="icon">
+		<a href="https://www.honda2wheelersindia.com/">
+		<h3>CBR 250</h3>
+	</a>
+		<p>The Honda CBR250R, CBR300R and CB300F are lightweight 249.5–286 cc (15.23–17.45 cu in) displacement single-cylinder motorcycles made by Honda since 2011.The 249.5 cc (15.23 cu in) CBR250R was made from 2011 to 2013 for all Honda markets except Japan and Malaysia, where production continued after 2013. Originally intended primarily for the Thai and Indian markets, the 250R was sold worldwide.</p>
+	</section>
+	<section class="col-md-12 col-sm-12 col-lg-12">
+		<img src="img/gixxer.jpg" class="icon" alt="icon">
+		<a href="https://www.suzukimotorcycle.co.in/category/motorcycles">
+		<h3>Suzuki Gixxer</h3>
+	</a>
+		<p>The Suzuki Gixxer GSX-150 is a 154.9 cc naked motorcycle from Suzuki. The bike was launched in September 2014. Its design is similar to the GSX-S1000.he Suzuki Gixxer SF (GSX-150F), a faired version of the Gixxer was launched on 7 April 2015.SF stands for Sport Fairing. The fully faired version is 4kg heavier than the naked version; the other specifications remain the same.</p>
+	</section>
+	<section class="col-md-12 col-sm-12 col-lg-12">
+		<img src="img/apache160.jpg" class="icon" alt="icon">
+		<a href="https://www.tvsmotor.com/">
+		<h3>Apache 160</h3>
+	</a>
+		<p>The TVS Apache is a motorcycle made by TVS Motors since 2006. TVS Apache is available in four variants: Apache RTR 160 Hyper edge, Apache RTR 180, Apache RTR 180 ABS and Apache RTR 200 4V. The RTR in the name stands for Racing Throttle Response. More than 2 million Apaches are on the road.The Apache is the first bike in India with a petal disc brake, which offers better heat dispersion thereby allowing fewer brake fades.</p>
+	</section>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
